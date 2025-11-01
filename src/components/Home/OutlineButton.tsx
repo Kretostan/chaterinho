@@ -8,7 +8,12 @@ interface OutlineButtonProps {
 
 const OutlineButton = ({ children }: OutlineButtonProps) => {
   return <motion.button
-    whileHover={{ backgroundColor: "rgb(0, 123, 255)" }}
+    style={{
+      backgroundColor: "rgb(0,123,255)"
+    }}
+    whileHover={{
+      backgroundColor: "rgb(30,140,255)"
+    }}
     className="py-4 w-full md:w-44 text-sm md:text-lg text-white rounded-xl border-2 border-white cursor-pointer">
     {children}
   </motion.button>;
