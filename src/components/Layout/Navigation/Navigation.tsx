@@ -5,7 +5,7 @@ import PrimaryButton from "@/components/Layout/Navigation/PrimaryButton";
 
 const Navigation = () => {
 	return (
-		<div className="fixed top-0 flex justify-center items-center w-screen bg-section border-b-1 border-[#3a3a3a] shadow-[0_0_10px_2px_black]">
+		<div className="fixed top-0 flex justify-center items-center w-screen bg-section border-b-1 border-[#3a3a3a] shadow-[0_0_10px_2px_black] z-1000">
 			<div className="flex justify-between items-center px-6 max-w-[1200px] w-full">
 				<Link
 					href="/"
