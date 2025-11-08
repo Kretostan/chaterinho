@@ -6,8 +6,8 @@
 		"dev": "next dev --turbopack",
 		"build": "next build --turbopack",
 		"start": "next start",
-		"biome-all": "npx @biomejs/biome check --write",
-		"biome-changed": "biome check --changed"
+		"lint": "npx @biomejs/biome check --write",
+		"lint:changed": "biome check --changed"
 	},
 	"dependencies": {
 		"framer-motion": "^12.23.24",
