@@ -14,7 +14,7 @@ const OutlineButton = ({ children }: OutlineButtonProps) => {
     whileHover={{
       backgroundColor: "rgb(30,140,255)"
     }}
-    className="py-4 w-full md:w-44 text-sm md:text-lg text-white rounded-xl border-2 border-white cursor-pointer">
+    className="py-4 w-full max-w-[300px] md:max-w-[200px] text-sm md:text-lg text-white rounded-xl border-2 border-white cursor-pointer">
     {children}
   </motion.button>;
 };

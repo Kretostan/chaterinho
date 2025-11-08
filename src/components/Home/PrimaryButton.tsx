@@ -14,7 +14,7 @@ const PrimaryButton = ({ children }: PrimaryButtonProps) => {
       y: -3,
       boxShadow: "0 0 10px 1px #ffffff",
     }}
-    className="py-4 w-full md:w-44 bg-white text-sm md:text-lg text-accent font-medium rounded-xl cursor-pointer">
+    className="py-4 w-full max-w-[300px] md:max-w-[200px] bg-white text-sm md:text-lg text-accent font-medium rounded-xl cursor-pointer">
     {children}
   </motion.button>;
 };
